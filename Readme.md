@@ -34,6 +34,7 @@ Dada a importância desse mercado na economia atual, a motivação do estudo é 
     - Permissões/roles: no ambiente learner lab não é possível configurar permissões e usuários, portanto foi utilizada a credencial padrão de aluno.
     - Sagemaker [(Foto da configuração)](https://github.com/gaby-baratela/ifsp_s2_bitcoin/blob/97ce612542b03ce645676d8bfe89add27e1de2aa/Imagens/Configura%C3%A7%C3%B5es%20Sagemaker.png): O sagemaker foi configurado com a máquina ml.t3.medium, que contém 2 CPUs , 0 GPU e 4 GB de memória RAM. A plataforma escolhida foi Amazon Linux 2 - JupyterLab 3, devido à compatibilidade com bibliotecas e scripts, ele foi conectado ao github e não foi definida nenhuma configuração personalizada de rede. No sagemaker, a opção de Kernel é `conda_tensorflow2_p38`
     - S3 [(Foto da estrutura)](https://github.com/gaby-baratela/ifsp_s2_bitcoin/blob/97ce612542b03ce645676d8bfe89add27e1de2aa/Imagens/Estrutura%20S3.png): No S3 foi criado o bucket `projetointerdisciplinars2`, público, sem criptografia e com as configurações padrão da nuvem. Ele foi dividido entre as pastas `data/`, para armazenamento de dados, e `models/`, para armazenamento dos modelos treinados.  
+    - Local: Todos os recursos estão sendo utilizados do Norte da virginia
 
 ### 3. Coleta de dados<a id="ancora3"></a>
 
